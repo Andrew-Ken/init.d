@@ -1,0 +1,16 @@
+#~/.gitconfig  
+[user]  
+  name=Ken Lu
+  email=ken@seeice.com
+[alias]  
+  co=checkout  
+  ci=commit -a  
+  st=status  
+  br=branch  
+  oneline=log --pretty=oneline --since='2 days ago'  
+  onelog=log -p -1  
+[color]  
+  diff=auto  
+  status=auto  
+  branch=auto  
+  ui=auto  

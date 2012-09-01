@@ -1,0 +1,8 @@
+echo "Install GIT config"
+echo ""
+cp dot_gitconfig ~/.gitconfig
+#echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >>~/.bash_profile
+cp dot_git_alias ~/.git_alias
+echo 'source ~/.git_alias' >>~/.bashrc
+source ~/.bashrc
+echo "done"
