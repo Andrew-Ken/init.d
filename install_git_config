@@ -5,4 +5,5 @@ cp dot_gitconfig ~/.gitconfig
 cp dot_git_alias ~/.git_alias
 echo 'source ~/.git_alias' >>~/.bashrc
 source ~/.bashrc
+source ~/.git_alias
 echo "done"
